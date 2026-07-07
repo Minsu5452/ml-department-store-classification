@@ -1,0 +1,18 @@
+# 데이터 / 산출물
+data/
+*.csv
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+
+# 도구 상태
+.omc/
