@@ -30,3 +30,5 @@
 18. `submission/ensemble/comp_mean_ensemble.ipynb`
 
 `notebook/2nd feature/comp_mean_ensemble_mlp.ipynb`는 위 순서에는 없지만, 앙상블을 실험하며 함께 만든 노트북이라 같이 남겼습니다.
+
+`src/`의 word2vec 스크립트는 7번 단계에서 브랜드·코너·파트·상품·고객정보 수준별 임베딩 피처를 만들 때 사용한 코드입니다.
