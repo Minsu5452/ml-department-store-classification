@@ -6,7 +6,7 @@
 
 ## 개요
 
-| 항목 | 내용 |
+| 구분 | 내용 |
 | --- | --- |
 | 수업 | 국민대학교 머신러닝 |
 | 기간 | 2022.03 – 2022.06 |
@@ -18,7 +18,7 @@
 
 ## 접근
 
-- 고객(custid)의 구매 트랜잭션을 브랜드·코너·파트·상품 시퀀스로 모아 Word2Vec으로 임베딩하고, 고객별로 벡터를 집계해 피처로 만들었습니다.
+- 고객(custid)의 구매 트랜잭션을 브랜드·코너·파트·상품 시퀀스로 모아 Word2Vec으로 임베딩하고, 고객별로 벡터를 집계해 피처로 만들었습니다. 분류 수준별 임베딩 스크립트는 [src/](src/)에 있습니다.
 - 구매 목록이 짧은 고객이 많아, 목록을 여러 번 늘려(oversampling) 임베딩 학습을 보강했습니다.
 - 매장·파트·상품 같은 범주형 정보에서 파생 변수를 만들고, category encoder로 변환한 뒤 SHAP 값으로 기여도가 높은 피처를 골랐습니다.
 - CatBoost·LightGBM·XGBoost와 DNN(Keras·PyTorch)·MLP(ktrain)를 학습하고, 여러 제출을 평균으로 블렌딩했습니다.
@@ -33,8 +33,10 @@
 ├── notebook/
 │   ├── 2nd feature/            # 피처 생성과 개별 모델 노트북
 │   └── 2nd feature + vector/   # 임베딩 벡터를 더한 피처·모델 노트북
+├── src/                        # 분류 수준별 Word2Vec 임베딩 스크립트
 ├── submission/
 │   └── ensemble/               # 제출 블렌딩 노트북
+├── Self-produced_code/         # 모델·앙상블 코드를 따로 정리한 노트북
 ├── reports/
 │   ├── kaggle_leaderboard.png       # Private 리더보드 기록
 │   └── notebook_execution_order.md  # 노트북 실행 순서
