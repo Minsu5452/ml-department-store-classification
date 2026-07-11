@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/python-3.10-3776AB?logo=python&logoColor=white)](https://www.python.org) [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 
-국민대학교 머신러닝 수업의 학기말 Kaggle 경진대회(KML Challenge 2022S) 기록입니다. 백화점 1년치 구매 트랜잭션을 고객 단위로 임베딩해 성별×연령대 8개 그룹을 분류했고, 3인 팀으로 참가해 Private 리더보드 2위를 기록했습니다.
+국민대학교 머신러닝 수업의 학기말 Kaggle 경진대회(KML Challenge 2022S) 기록입니다. 백화점 1년치 구매 트랜잭션을 고객 단위로 임베딩해 성별×연령대 8개 그룹을 분류했고, 3인 팀으로 참가해 Private 리더보드 2위에 올랐습니다.
 
 ## 개요
 
